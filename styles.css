@@ -1,6 +1,6 @@
 {
-    font-family: "FontName";
-    src:
+    font-family "FontName"
+    src
       url("linkToTheFontFolder/File.woff2") format("woff2"),
       url("linkToTheFontFolder/File.woff")  format("woff");
   }
