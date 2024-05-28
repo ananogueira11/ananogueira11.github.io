@@ -4,15 +4,45 @@
   src:
     url("font/TAN-PARADISO.ttf") format("woff2"),
     url("font/TAN-PARADISO.ttf")  format("woff");
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 }
   
   
   body 
   {
-    font-family: "TAN-PARADISO", Courier, monospace;
     background-color: rgb(209, 221, 234);
-  }
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 450;
+      font-style: normal;
+      font-size: 30px;
+    }
 
+ h1
+  {
+font-family: "TAN-PARADISO", Courier, monospace;
+}
+
+h2
+{
+font-family: "TAN-PARADISO", Courier, monospace;
+}
+
+h3
+{
+font-family: "TAN-PARADISO", Courier, monospace;
+}
+
+h4
+{
+font-family: "TAN-PARADISO", Courier, monospace;
+}
+
+h5
+{
+font-family: "TAN-PARADISO", Courier, monospace;
+}
+ 
 
     a:link 
 {
@@ -47,4 +77,47 @@ img
 video 
 {
   width: 100%;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+  body 
+  {
+    /*background-color: red;*/
+    font-size: medium;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+  body 
+  {
+    /*background-color: green;*/
+    font-size: larger;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+  body 
+  {
+    /*background-color: blue;*/
+    font-size: x-large;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+  body 
+  {
+    /*background-color: white;*/
+  }
 }
