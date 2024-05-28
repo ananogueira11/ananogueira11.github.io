@@ -15,7 +15,8 @@
       font-optical-sizing: auto;
       font-weight: 450;
       font-style: normal;
-      font-size: 30px;
+      font-size: 20px;
+      text-align: center;
     }
 
  h1
@@ -34,7 +35,6 @@ font-family: "TAN-PARADISO", Courier, monospace;
 }
 
 
- 
 
     a:link 
 {
