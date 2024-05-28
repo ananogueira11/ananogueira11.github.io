@@ -1,15 +1,15 @@
 @font-face 
 {
-  font-family: "FontName";
+  font-family: "TAN-PARADISO";
   src:
-    url("linkToTheFontFolder/File.woff2") format("woff2"),
-    url("linkToTheFontFolder/File.woff")  format("woff");
+    url("font/TAN-PARADISO.ttf") format("woff2"),
+    url("font/TAN-PARADISO.ttf")  format("woff");
 }
   
   
   body 
   {
-    font-family: "FontName", Courier, monospace;
+    font-family: "TAN-PARADISO", Courier, monospace;
     background-color: rgb(209, 221, 234);
   }
 
@@ -40,6 +40,11 @@ a:visited
 }
 
 img 
+{
+  width: 100%;
+}
+
+video 
 {
   width: 100%;
 }
