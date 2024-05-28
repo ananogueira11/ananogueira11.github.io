@@ -33,15 +33,7 @@ h3
 font-family: "TAN-PARADISO", Courier, monospace;
 }
 
-h4
-{
-font-family: "TAN-PARADISO", Courier, monospace;
-}
 
-h5
-{
-font-family: "TAN-PARADISO", Courier, monospace;
-}
  
 
     a:link 
@@ -86,7 +78,7 @@ video
   body 
   {
     /*background-color: red;*/
-    font-size: medium;
+    font-size: small;
   }
 }
 
@@ -108,7 +100,7 @@ video
   body 
   {
     /*background-color: blue;*/
-    font-size: x-large;
+    font-size: xx-large;
   }
 }
 
