@@ -12,3 +12,34 @@
     font-family: "FontName", Courier, monospace;
     background-color: rgb(209, 221, 234);
   }
+
+
+    a:link 
+{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+
+a:hover 
+{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+a:active 
+{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+a:visited 
+{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+img 
+{
+  width: 100%;
+}
