@@ -1,13 +1,14 @@
 @font-face 
 {
+  /*fonte para os títulos*/
   font-family: "TAN-PARADISO";
   src:
     url("font/TAN-PARADISO.ttf") format("woff2"),
-    url("font/TAN-PARADISO.ttf")  format("woff");
+    url("font/TAN-PARADISO.ttf") format("woff");
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 }
   
-  
+  /*fonte para a base do site*/
   body 
   {
     background-color: rgb(209, 221, 234);
@@ -17,9 +18,11 @@
       font-style: normal;
       font-size: 20px;
       text-align: center;
+
+    /*cor de fundo do site, fonte escolhida para os textos, tamanhos e alinhamento*/
     }
 
-
+/*fonte para estes tamanhos de letra*/
  h1
   {
 font-family: "TAN-PARADISO", Courier, monospace;
@@ -37,12 +40,12 @@ font-family: "TAN-PARADISO", Courier, monospace;
 
 
 
+/*cores e sublinhado dos títulos da barra de navegação e do header*/
     a:link 
 {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
-
 
 a:hover 
 {
@@ -59,14 +62,17 @@ a:active
 a:visited 
 {
   color: rgb(0, 0, 0);
-  text-decoration: none;
+  text-decoration: none;
 }
 
+
+
+/*tamanho da imagem*/
 img 
 {
   width: 100%;
 }
-
+/*tamanho do video*/
 video 
 {
   width: 100%;
@@ -113,5 +119,6 @@ video
   body 
   {
     /*background-color: white;*/
+    font-size: xx-large;
   }
 }
