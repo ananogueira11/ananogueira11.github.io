@@ -40,6 +40,19 @@ font-family: "TAN-PARADISO", Courier, monospace;
 
 
 
+div.scroll-container {
+  background-color: #33333300;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 50px;
+}
+
+div.scroll-container img {
+  padding: 0px;
+}
+
+
+
 /*cores e sublinhado dos títulos da barra de navegação e do header*/
     a:link 
 {
