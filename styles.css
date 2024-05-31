@@ -18,6 +18,7 @@
       font-style: normal;
       font-size: 20px;
       text-align: center;
+      color: rgb(255, 255, 255);
 
       
 
@@ -60,25 +61,25 @@ div.scroll-container img {
 /*cores e sublinhado dos títulos da barra de navegação e do header*/
     a:link 
 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 a:hover 
 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: underline;
 }
 
 a:active 
 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: underline;
 }
 
 a:visited 
 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
