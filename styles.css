@@ -65,7 +65,13 @@ a:visited
   text-decoration: none;
 }
 
-
+/*tamanho do vídeo*/
+div>video
+{
+  width: 25%;
+  height: 25%;
+  padding-bottom: 2px;
+}
 
 /*tamanho da imagem*/
 img 
